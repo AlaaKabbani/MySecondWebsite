@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Metallica Fan Page</title>
+		<link rel="shortcut icon" href="../images/icons/favicon.jpg"> <!--World Vector Logo (n.d.). Download Metallica vector (SVG) logo. Retrieved April 12, 2020, from https://worldvectorlogo.com/logo/metallica-2  -->
+		<link rel="stylesheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/feedback.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="../images/metallicaLogo3.png" alt="Metallica Logo" width="85">
+			<h2>METALLICA Fan Page</h2>
+			<h3>Feedback Form</h3>
+		</header>
+		
+		<nav id="navMenu">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../pages/members.html">Members</a></li>
+				<li><a href="../pages/images.html">Albums</a>
+					<ul>
+						<li><a href="../pages/images.html">Master of Puppets</a></li>
+						<li><a href="../pages/images.html">Metallica</a></li>
+						<li><a href="../pages/images.html">Death Magnetic</a></li>
+						<li><a href="../pages/images.html">S&amp;M</a>
+							<ul>
+								<li><a href="../pages/images.html">Mothing else matters</a></li>
+								<li><a href="../pages/images.html">No leaf Clover</a></li>
+								<li><a href="../pages/images.html">One</a></li>
+								<li><a href="../pages/images.html">Enter Sandman</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#" class="current">Feedback</a></li>
+			</ul>
+		</nav>
+	  
+		<main>
+			<aside id="LeftAside">
+				<a href="../index.html"><img src="../images/icons/homeIcon.png" alt="Home Icon"></a> <!-- Gandy, D. (2020).  Home free icon. Retrieved April 12, 2020, from https://www.flaticon.com/free-icon/home_25694 -->
+				<figcaption>Home</figcaption>
+		
+				<a href="../pages/members.html"><img src="../images/icons/membersIcon.jpg" alt="Members Icon"></a> <!--Retrieved April 12, 2020, from https://www.pinterest.ca/pin/421860690076023772/?autologin=true-->
+				<figcaption>Members</figcaption>
+		
+				<a href="../pages/images.html"><img src="../images/icons/albumIcon.png" alt="Albums Icon"></a>  <!--Free Pik (2020). Music Album free icon. Retrieved April 12, 2020, from https://www.flaticon.com/free-icon/music-album_26805-->
+				<figcaption>Albums</figcaption> 
+			
+				<a href="#"><img src="../images/icons/feedbackIcon.png" alt="Feedback Icon"></a> <!--Mozaic Studio (2020). Feedback icon images. Retrieved April 12, 2020, from https://www.shutterstock.com/image-vector/feedback-icon-design-concept-communication-collection-1436533436-->
+				<figcaption>Feedback</figcaption>
+			</aside>	
+		
+			<article>
+				<form name="feedback_form" action="#"> <br><br>
+					<p>Please enter your information and feedback below.</p><br><br>
+					<label for="Name">Name: </label>
+					<input type="text" id="name" autofocus required><br><br>
+					
+					<label for="email">Email: </label>
+					<input type="text" name="email" id="email" required><br><br>
+				
+					<label for="Feature">Feature: </label><br>
+					<select id="styleAndSize">
+						<optgroup label="Stlye">
+							<option value="color">Color</option>
+							<option value="font">Font</option>
+							<option value="design">Design</option>
+						</optgroup>
+						<optgroup label="Content">
+							<option value="images">Images</option>
+							<option value="Info">Information</option>
+							<option value="links">Links</option>
+						</optgroup>
+					</select> <br><br>
+			
+					<label for="contactType">Contact Type: </label><br>
+					<select name="contactType" size="2" Multiple>
+						<option value="email">Email</option>
+						<option value="phone">Phone</option>
+						<option value="text">Text</option>
+					</select><br><br>
+				
+					Comments:<br>
+					<textarea name="comments" placeholder="If you have any comments, please enter them here.">
+					</textarea>
+					
+					<input type="submit" id="submit" value="Submit">
+					<input type="reset" id="reset" value="Reset">
+				</form>
+			</article>
+		
+			<aside id="RightAside">
+				<form name="myform" action="order.php" method="post">
+					<label>My Website is: </label><br><br>
+					<input type="checkbox" name="Opinion1" value="fun">Fun to Visit<br>
+					<input type="checkbox" name="Opinion2" value="design">Well Designed<br>
+					<input type="checkbox" name="Opinion3" value="colour">Uses good colours<br>
+					<input type="checkbox" name="Opinion4" value="inspriring">Inspiring<br><br><br>
+					
+					<label>Will you be visiting my website again? </label><br><br>
+					<input type="radio" name="visit" id="radio" value="yes">
+					<label for="visit1">-Yes</label>
+					<input type="radio" name="visit" id="radio" value="no">
+					<label for="visit2">-No</label><br>
+				</form>	
+			</aside>
+		</main>
+	</body>
+	
+	<footer>
+		<p>&copy; 2020 Alaa Kabbani</p>
+	</footer>
+</html>

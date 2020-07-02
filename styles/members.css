@@ -1,0 +1,9 @@
+/* the styles for the elements used in the Images page */
+
+/*Article*/
+article {
+	width: 452px;
+	float: left;
+	padding: 30px;
+	color: white;
+}

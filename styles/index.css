@@ -1,0 +1,94 @@
+/* the styles for the elements used in the Home page */
+
+/*Article*/
+article {
+	width: 430px;
+	float: left;
+	padding: 20px 25px 20px 25px;	
+	color: white;
+}
+article h1 { 
+	font-size: 130%;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+article h3 {
+	font-size: 110%;
+	margin: 2em 0 .5em 0;
+}
+article p {
+	margin-bottom: .5em;
+	text-indent: 1em;
+}
+
+
+/* Right Side */
+#RightAside  {
+	float: right; 
+	width: 128px;
+	padding: 10px 10px 10px 20px; 
+	border-left: 2px solid black;
+}
+#RightAside  p {	
+	font-size: 70%;  
+	padding: 0 .1em 1em 0; 
+}
+#RightAside  h2 {
+	font-size:95%;
+	padding: 1em 0 0 0;  
+}
+#RightAside  h3 {
+	font-size: 80%;
+	padding-bottom: 2em;
+	padding-top: .7em;
+}
+#RightAside  p {
+	margin-top: 1em;
+}
+
+/*Images in Right Aside*/
+#image1James {
+	background-image: url("../images/members/jamesHetfield.png");
+	width: 90%;
+	height: 100px;
+	background-size: contain;
+	border: 1px solid black;
+}
+#image1James:hover {
+	background-image: url("../images/FunFacts/jamesHetfield2.png");
+}
+#image1Lars {
+	background-image: url("../images/members/LarsUlrich.jpg");
+	width: 90%;
+	height: 100px;
+	background-size: contain;
+	border: 1px solid black;
+	margin-top: 1px;
+}
+#image1Lars:hover {
+	background-image: url("../images/FunFacts/LarsUlrich2.jpg");
+}
+#image1Rob {
+	background-image: url("../images/members/RobertTrujillo.jpg");
+	width: 90%;
+	height: 100px;
+	background-size: contain;
+	border: 1px solid black;
+}
+#image1Rob:hover {
+	background-image: url("../images/FunFacts/RobertTrujillo2.jpg");
+}
+#image1Kirk {
+	background-image: url("../images/members/KirkHammett.jpg");
+	width: 90%;
+	height: 100px;
+	background-size: contain;
+	border: 1px solid black;
+}
+#image1Kirk:hover {
+	background-image: url("../images/FunFacts/KirkHammett2.jpg");
+}
+	
+	
+
+

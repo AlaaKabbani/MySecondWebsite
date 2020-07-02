@@ -1,0 +1,81 @@
+/* the styles for the elements used in the Images page */
+
+/*Article*/
+article {
+	width: 452px;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	border-right: 2px solid black;	
+	border-left: 2px solid black;
+	color: white;
+}
+article h2 {
+	font-size: 120%;
+	text-align: center;
+}
+article h3 {
+	font-size: 100%;
+	text-align: center;		
+}
+article h4 {
+	font-size: 80%;
+	padding: 0;
+}
+.column {
+	width: 29%;
+	padding: 5px 4px 1px 4px;
+	float: left;
+	text-align: center;
+	height: 100px;
+	margin-bottom: 90px;
+}
+.row {
+	content: "";
+	clear: both;
+	display: table;
+	text-align: center;
+	padding-top: 30px;
+}
+article img {
+	border: 4px solid black;
+}
+.column:hover {
+	width: 32%;
+}
+article p {
+	padding: 4px;
+}
+
+/*RightAside*/
+#RightAside {
+	border: 9px solid red;
+}
+#RightAside a{
+	color:black;
+}
+#RightAside a:hover, a:focus{
+	color:orange;
+}
+#RightAside  {
+	float: right; 
+	width: 128px;
+	padding: 10px 10px 15px 20px; 
+	border-left: 2px solid black;
+}
+#RightAside  p {	
+	font-size: 90%;  
+	padding: 0 .1em 1em 0; 
+}
+#RightAside  h3 {
+	font-size: 80%;
+	padding-bottom: 2em;
+	padding-top: .7em;
+}
+
+
+/*Left Aside*/
+#LeftAside {
+	border-right: none;
+}
+
+
